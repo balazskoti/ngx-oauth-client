@@ -1,10 +1,10 @@
 {
-  "name": "ngx-oauth-client",
-  "version": "0.2.7",
+  "name": "@bkoti/ngx-oauth-client",
+  "version": "0.3.1",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/0xMatt/ngx-oauth-client.git"
+    "url": "git+ssh://git@github.com/balazskoti/ngx-oauth-client.git"
   },
   "scripts": {
     "total-patch-publish": "run-s test demo.deploy version && npm version patch && npm publish && git push --tags && git push",
